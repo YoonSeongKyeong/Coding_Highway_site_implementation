@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset finished */
+
+.ground {
+    background-image: url(https://help.autovitals.com/wp-content/uploads/2017/01/highway.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.title {
+    color: rgba(255, 255, 255, 0.836);
+    margin-top: 20pt;
+    margin-bottom: 75pt;
+    font-family: 'Orbitron', 'Poppins', 'News Cycle', 'Teko', sans-serif;
+    text-align: center; 
+    font-size: 80pt;
+    height: 50pt;
+    line-height: 100%;
+    font-weight: 200;
+    
+}
+.main {
+    background-repeat: no-repeat;
+    display: inline-block;
+    }
+.sub {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    left: 68pt;
+    margin-top: 10pt;
+    margin-bottom: 32pt;
+    font-size: 20pt;
+    height: 40pt;
+    line-height: 40pt;
+    font-family: 'Julius Sans One', 'Do Hyeon', 'Nanum Gothic', 'News+Cycle', 'Poppins', 'Teko', sans-serif;
+    background-color: rgba(0, 10, 2, 0.89);
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    border-width: 1pt;
+    border-style: solid;
+    border-radius: 30pt;
+    font-weight: 100;
+}
+.defB {
+    color: rgb(255, 185, 81);
+}
+.defB:hover {
+    color: rgb(255, 153, 0);
+}
+.playB {
+    color: rgb(41, 191, 236);
+}
+.playB:hover {
+    color: rgb(0, 195, 255);
+}
+.challengeB {
+    color: rgba(162, 248, 135, 0.781);
+}
+.challengeB:hover {
+    color: rgba(60, 255, 0, 0.781);
+}
+.qnaB {
+    color: rgb(184, 153, 255);
+}
+.qnaB:hover {
+    color: rgb(76, 0, 255);
+}
+.refB {
+    color: rgb(238, 238, 121);
+}
+.refB:hover{
+    color: rgb(238, 227, 79);
+}
+.theme {
+    display: inline-block;
+    position: relative;
+    width:30%;
+}
+.photo {
+    display: inline-block;
+    position: absolute;
+    height:300pt;
+    margin:0 5% 0 11%;
+}
+.describe {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    width: 95%;
+    border-radius: 60pt;
+    border: 1.5pt;
+    border-style: solid; 
+}
+.sub:hover, .describe:hover {
+    cursor: pointer;
+}
+.sub:hover {
+    background-color: white;
+    font-weight: 600;
+}
+
+.highway {
+    display: inline-block;
+    border-color: rgb(255, 255, 255);
+    height: 380pt;
+    width: 620pt;
+}
+.highway:hover {
+    border-color: rgb(0, 0, 0);
+    
+}
+.sunclear {
+    display: none;
+    border-color: rgb(255, 153, 0);
+    height: 380pt;
+    width: 620pt;
+}
+.sunclear:hover {
+    border-color: rgb(216, 255, 250);
+    
+}
+.circuit {
+    display: none;
+    border-color:  rgb(9, 7, 109);
+    height: 390pt;
+    width: 620pt;
+}
+.circuit:hover {
+    border-color:  rgb(255, 255, 255);
+}
+.forest {
+    display: none;
+    border-color: rgba(12, 48, 1, 0.781);
+    height: 390pt;
+    width: 620pt;
+}
+.forest:hover {
+    border-color: rgba(255, 255, 255, 0.781);
+}
+.house {
+    display: none;
+    border-color: rgb(78, 8, 3);
+    height: 390pt;
+    width: 620pt;
+}
+.house:hover {
+    border-color: rgb(255, 255, 255);
+}
+.mine {
+    display: none;
+    border-color: rgb(176, 179, 0);
+    height: 390pt;
+    width: 620pt;
+}
+.mine:hover {
+    border-color: rgb(255, 255, 255);
+}
