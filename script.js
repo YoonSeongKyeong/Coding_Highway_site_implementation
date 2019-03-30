@@ -25,6 +25,6 @@ $(document).ready(function() {
     });
     
     $(".highway").on("click", function() {//linking click to move page
-        location.href= "https://yoonseongkyeong.github.io/coding-highway-site/highwayInstruction/HWI_index.html";
+        location.href= "https://github.com/YoonSeongKyeong/coding-highway-site/blob/master/highwayInstruction/HWI_index.html";
     })
 })
