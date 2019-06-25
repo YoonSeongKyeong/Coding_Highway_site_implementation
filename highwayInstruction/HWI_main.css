@@ -71,28 +71,28 @@ table {
 
 .title {
     color: rgb(0, 110, 59);
-    font-size: 50pt;
+    font-size: 4.5vw;
     font-family: "Orbitron", "Pompiere", "Julius Sans One";
     text-align: center;
-    margin: 24pt;
+    margin: 2vw;
 }
 .leftside {
     display: inline-block;
-    width: 10%;
+    width: 5vw;
     position: relative;
 }
 .home {
     display: inline-block;
     position: absolute;
-    top: 25pt;
-    left: 35pt;
+    top: 4vh;
+    left: 4vw;
     background-image: url("home.PNG");
-    width: 170pt ;
-    height: 170pt;
-    border-radius: 85pt;
+    width: 12vw ;
+    height: 12vw;
+    border-radius: 6vw;
     background-size: cover;
     border: solid;
-    border-width: 1pt;
+    border-width: 0.1vw;
     border-color: rgb(0, 0, 0);
     background-repeat: round;
     cursor: pointer;
@@ -104,33 +104,36 @@ table {
     font-family: "Pompiere", "Julius Sans One";
     text-align: center;
     color: rgb(12, 0, 0);
-    margin-top: 30pt;
+    margin-left: 2vw;
+    margin-top: 3vw;
     display: inline-block;
     width: 70%;
 }
 .rightside {
     font-family: "Pompiere", "Julius Sans One";
     display: inline-block;
-    width: 40%;
+    width: 30vw;
     position: absolute;
     top:42%;
-    right: 5pt;
+    right: 1vw;
 }
 h1 {
-    margin-top:25pt;
-    font-size: 30pt;
+    margin-top:2vw;
+    font-size: 3vw;
 }
 h2 {
     font-weight: 700;
     text-align: left;
     color: rgba(90, 35, 26, 0.87);
-    margin-top:25pt;
-    margin-bottom: 20pt;
-    font-size: 30pt;
+    margin-top:2vw;
+    margin-bottom: 2vw;
+    font-size: 3vw;
 }
 h3 {
-    margin-top:25pt;
-    font-size: 25pt;
+    margin-left: 8vw;
+    /* margin-left는 This site is built ~ 부분을 가운데에 위치시키려고 사용 */
+    margin-top:2vw;
+    font-size: 2vw;
 }
 strong {
     font-weight: 700;
@@ -140,17 +143,14 @@ ul {
     text-align: left;
 }
 li {
-    margin-top:25pt;
-    font-size: 20pt;
-}
-.space {
-    display:inline-block;
-    width: 50pt;
+    margin-top:2vw;
+    font-size: 2vw;
 }
 
+
 .rightside h2 {
-    margin-top:8pt;
-    margin-bottom: 30pt;
+    margin-top:1vw;
+    margin-bottom: 2vw;
     text-align: center;
 }
 /* for table */
@@ -160,19 +160,22 @@ li {
 }
 .tg td{
     font-family: "Julius Sans One", Arial, sans-serif;
-    font-size:14px;padding:12px 8px;
-    border-style:solid;border-width:1px;
-    overflow:hidden;word-break:normal;
+    font-size:1vw;
+    padding:1vw 0.5vw;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
     border-color:rgb(82, 10, 10);
     font-weight: 700;
 }
 .tg th{
     font-family:"Julius Sans One", Arial, sans-serif;
-    font-size:14px;
+    font-size:1vw;
     font-weight:normal;
-    padding:12px 8px;
+    padding:1vw 0.5vw;
     border-style:solid;
-    border-width:1px;
+    border-width:0.1vw;
     overflow:hidden;
     word-break:normal;
     border-color:rgb(82, 10, 10);
