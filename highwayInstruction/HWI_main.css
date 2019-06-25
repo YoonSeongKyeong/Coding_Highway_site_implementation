@@ -90,7 +90,7 @@ table {
     width: 170pt ;
     height: 170pt;
     border-radius: 85pt;
-    background-size: contain;
+    background-size: cover;
     border: solid;
     border-width: 1pt;
     border-color: rgb(0, 0, 0);

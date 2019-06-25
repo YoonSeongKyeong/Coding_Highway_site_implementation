@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -52,17 +52,17 @@ table {
 .ground {
     background-image: url(https://help.autovitals.com/wp-content/uploads/2017/01/highway.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     
 }
 .title {
     color: rgba(255, 255, 255, 0.836);
-    margin-top: 20pt;
-    margin-bottom: 75pt;
+    margin-top: 5vh;
+    margin-bottom: 7vw;
     font-family: 'Orbitron', 'Poppins', 'News Cycle', 'Teko', sans-serif;
     text-align: center; 
-    font-size: 80pt;
-    height: 50pt;
+    font-size: 7vw;
+    height: 5vw;
     line-height: 100%;
     font-weight: 200;
     
@@ -75,19 +75,19 @@ table {
     position: relative;
     display: inline-block;
     width: 100%;
-    left: 68pt;
-    margin-top: 10pt;
-    margin-bottom: 32pt;
-    font-size: 20pt;
-    height: 40pt;
-    line-height: 40pt;
+    left: 18%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    font-size: 1.7vw;
+    height: 7vh;
+    line-height: 7vh;
     font-family: 'Julius Sans One', 'Do Hyeon', 'Nanum Gothic', 'News+Cycle', 'Poppins', 'Teko', sans-serif;
     background-color: rgba(0, 10, 2, 0.89);
     text-align: center;
     border-color: rgb(255, 255, 255);
-    border-width: 1pt;
+    border-width: 0.1vw;
     border-style: solid;
-    border-radius: 30pt;
+    border-radius: 2vw;
     font-weight: 100;
 }
 .defB {
@@ -129,14 +129,14 @@ table {
     display: inline-block;
     position: absolute;
     height:300pt;
-    margin:0 5% 0 11%;
+    margin-left: 12vw;
 }
 .describe {
-    margin-top: 5pt;
-    margin-bottom: 5pt;
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
     width: 95%;
-    border-radius: 60pt;
-    border: 1.5pt;
+    border-radius: 6vw;
+    border: 0.1vw;
     border-style: solid; 
 }
 .sub:hover, .describe:hover {
@@ -150,8 +150,8 @@ table {
 .highway {
     display: inline-block;
     border-color: rgb(255, 255, 255);
-    height: 380pt;
-    width: 620pt;
+    height: 60vh;
+    width: 50vw;
 }
 .highway:hover {
     border-color: rgb(0, 0, 0);
@@ -160,8 +160,8 @@ table {
 .sunclear {
     display: none;
     border-color: rgb(255, 153, 0);
-    height: 380pt;
-    width: 620pt;
+    height: 60vh;
+    width: 50vw;
 }
 .sunclear:hover {
     border-color: rgb(216, 255, 250);
@@ -170,8 +170,8 @@ table {
 .circuit {
     display: none;
     border-color:  rgb(9, 7, 109);
-    height: 390pt;
-    width: 620pt;
+    height: 60vh;
+    width: 50vw;
 }
 .circuit:hover {
     border-color:  rgb(255, 255, 255);
@@ -179,8 +179,8 @@ table {
 .forest {
     display: none;
     border-color: rgba(12, 48, 1, 0.781);
-    height: 390pt;
-    width: 620pt;
+    height: 60vh;
+    width: 50vw;
 }
 .forest:hover {
     border-color: rgba(255, 255, 255, 0.781);
@@ -188,8 +188,8 @@ table {
 .house {
     display: none;
     border-color: rgb(78, 8, 3);
-    height: 390pt;
-    width: 620pt;
+    height: 60vh;
+    width: 50vw;
 }
 .house:hover {
     border-color: rgb(255, 255, 255);
@@ -197,8 +197,8 @@ table {
 .mine {
     display: none;
     border-color: rgb(176, 179, 0);
-    height: 390pt;
-    width: 620pt;
+    height: 60vh;
+    width: 50vw;
 }
 .mine:hover {
     border-color: rgb(255, 255, 255);
