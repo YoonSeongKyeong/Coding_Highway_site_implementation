@@ -88,19 +88,19 @@ table {
     position: absolute;
     top: 5vh;
     left: 5.5vw;
-    background-image: url("home.PNG");
+    background-image: url("../home.PNG");
     width: 12vw ;
     height: 12vw;
-    border-radius: 6vw;
+    border-radius: 10vw;
     background-size: cover;
     border: solid;
-    border-width: 0.1vw;
-    border-color: rgb(0, 0, 0);
+    border-width: 0.2vw;
+    border-color: rgb(255, 255, 255);
     background-repeat: round;
     cursor: pointer;
 }
 .home:hover {
-    border-color: white;
+    border-color: rgb(16, 97, 43);
 }
 .text-container {
     font-family: "Pompiere", "Julius Sans One";
