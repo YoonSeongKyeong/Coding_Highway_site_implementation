@@ -28,7 +28,7 @@ $(document).ready(function() {
         location.href= "./highwayInstruction/HWI_index.html";
     })
     $(".defB, .sunclear ").on("click", function() {//linking click to move page
-        location.href= "./SunclearDefVillage/SDV_index.html";
+        location.href= "./sunclearDefVillage/SDV_index.html";
     })
     $(".playB, .circuit ").on("click", function() {//linking click to move page
         location.href= "./hardGroundPlayCircuit/HGPC_index.html";
