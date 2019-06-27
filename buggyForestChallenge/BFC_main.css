@@ -75,14 +75,14 @@ table {
     cursor: pointer;
 }
 .home:hover {
-    border-color: rgba(147, 197, 255, 0.877);
+    border-color: rgb(23, 155, 146);
 }
 .title {
     display: inline-block;
     text-align: center;
     font-size: 7vw;
     font-family: 'khand', sans-serif;
-    background-color: rgb(26, 65, 113);
+    background-color: rgb(11, 68, 11);
     color: rgb(255, 255, 255);
     left:0;
     right:0;
@@ -120,7 +120,7 @@ table {
     height: 8vw;
     width:28vw;
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 185, 81);
+    color: rgba(162, 248, 135, 0.781);
     margin-top: 1vw;
     margin-bottom: 1vw;
     margin-left: 2vw;
@@ -131,7 +131,7 @@ table {
 }
 .contents:hover {
     background-color: rgb(255, 255, 255);
-    border-color: rgb(255, 153, 0);
-    color: rgb(255, 153, 0);
+    border-color: rgba(60, 255, 0, 0.781);
+    color: rgba(60, 255, 0, 0.781);
     cursor: pointer;
 }
